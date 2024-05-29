@@ -23,14 +23,14 @@ function Home() {
   };
   return (
     <Layout>
-      <div className="flex gap-5 justify-center">
+      {/* <div className="flex gap-5 justify-center">
         <button className="bg-gray-300 p-5" onClick={() => addCart()}>
           add
         </button>
         <button className="bg-gray-300 p-5" onClick={() => deleteCart()}>
           del
         </button>
-      </div>
+      </div> */}
       <HeroSection></HeroSection>
       <Filter></Filter>
       <ProductCard></ProductCard>

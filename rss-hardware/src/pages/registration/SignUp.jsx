@@ -6,6 +6,7 @@ import { auth, fireDB } from "../../firebase/FirebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 import Loader from "../../components/loader/loader";
+import MyState from "../../context/data/myState";
 
 function Signup() {
   const [name, setName] = useState("");

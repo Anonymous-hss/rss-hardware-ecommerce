@@ -6,7 +6,6 @@ import { auth, fireDB } from "../../firebase/FirebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 import Loader from "../../components/loader/loader";
-import MyState from "../../context/data/myState";
 
 function Signup() {
   const [name, setName] = useState("");
@@ -26,7 +25,7 @@ function Signup() {
       const users = await createUserWithEmailAndPassword(auth, email, password);
 
       const user = {
-        name: users.user.uid,
+        name: name,
         uid: users.user.uid,
         email: users.user.email,
         time: Timestamp.now(),

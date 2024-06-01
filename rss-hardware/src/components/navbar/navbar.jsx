@@ -16,11 +16,11 @@ const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
   const [open, setOpen] = useState(false);
-  const user = JSON.parse(localStorage.getItem("currentUser"));
+  const user = JSON.parse(localStorage.getItem("user"));
   const admin = JSON.parse(localStorage.getItem("currentAdmin"));
   const logout = () => {
-    localStorage.clear("currentUser");
-    localStorage.clear("currentAdmin");
+    localStorage.clear("User");
+    // localStorage.clear("currentAdmin");
     window.location.href = "/";
   };
 

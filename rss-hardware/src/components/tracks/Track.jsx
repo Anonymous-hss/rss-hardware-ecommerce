@@ -18,7 +18,7 @@ function Track() {
                 }}
               >
                 <svg
-                  className="text-pink-600 w-12 h-12 mb-3 inline-block"
+                  className="text-violet-600 w-12 h-12 mb-3 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -36,10 +36,10 @@ function Track() {
                   className="title-font font-medium text-lg text-gray-900"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
-                  Premium Tshirts
+                  Premium Quality Material
                 </h2>
                 <p className="leading-relaxed">
-                  Our T-Shirts are 100% made of cotton.
+                  We try to provide you best assured quality in market
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ function Track() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-pink-600 w-12 h-12 mb-3 inline-block"
+                  className="text-violet-600 w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -91,7 +91,7 @@ function Track() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-pink-600 w-12 h-12 mb-3 inline-block"
+                  className="text-violet-600 w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"

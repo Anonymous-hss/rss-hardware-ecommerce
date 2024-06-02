@@ -26,6 +26,7 @@ function Footer() {
               <nav className="list-none mb-10">
                 <li>
                   <a
+                    href="/"
                     className="text-gray-600 hover:text-gray-800"
                     style={{ color: mode === "dark" ? "white" : "" }}
                   >
@@ -34,22 +35,17 @@ function Footer() {
                 </li>
                 <li>
                   <a
+                    href="/order"
                     className="text-gray-600 hover:text-gray-800"
                     style={{ color: mode === "dark" ? "white" : "" }}
                   >
                     Order
                   </a>
                 </li>
+
                 <li>
                   <a
-                    className="text-gray-600 hover:text-gray-800"
-                    style={{ color: mode === "dark" ? "white" : "" }}
-                  >
-                    Local For Vocal
-                  </a>
-                </li>
-                <li>
-                  <a
+                    href="/cart"
                     className="text-gray-600 hover:text-gray-800"
                     style={{ color: mode === "dark" ? "white" : "" }}
                   >
@@ -135,7 +131,7 @@ function Footer() {
                   className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
-                  E-Bharat
+                  RSS-HARDWARE
                 </h1>
               </div>
             </Link>
@@ -143,7 +139,7 @@ function Footer() {
               className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4"
               style={{ color: mode === "dark" ? "white" : "" }}
             >
-              © 2023 E-bharat —
+              © 2024 RSS-HARDWARE —
               <a
                 href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
@@ -151,7 +147,7 @@ function Footer() {
                 target="_blank"
                 style={{ color: mode === "dark" ? "white" : "" }}
               >
-                www.ebharat.com
+                www.rsshardware.com
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

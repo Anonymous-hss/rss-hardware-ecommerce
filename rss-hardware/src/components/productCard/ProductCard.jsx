@@ -36,9 +36,9 @@ function ProductCard() {
             class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
             style={{ color: mode === "dark" ? "white" : "" }}
           >
-            Our Latest Collection
+            Products
           </h1>
-          <div class="h-1 w-20 bg-pink-600 rounded"></div>
+          <div class="h-1 w-20 bg-violet-600 rounded"></div>
         </div>
 
         <div className="flex flex-wrap -m-4">
@@ -93,7 +93,7 @@ function ProductCard() {
                         <button
                           onClick={() => addCart(item)}
                           type="button"
-                          className="focus:outline-none text-white bg-pink-600 hover:bg-pink-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                          className="focus:outline-none text-white bg-violet-600 hover:bg-violet-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                         >
                           Add To Cart
                         </button>

@@ -156,13 +156,13 @@ const Navbar = () => {
 
       <header className="relative bg-white">
         <p
-          className="flex h-10 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8"
+          className="flex h-10 items-center justify-center bg-violet-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8"
           style={{
             backgroundColor: mode === "dark" ? "rgb(62 64 66)" : "",
             color: mode === "dark" ? "white" : "",
           }}
         >
-          Get free delivery on orders over ₹300
+          Get free delivery on orders over ₹10,000
         </p>
 
         <nav
@@ -209,7 +209,7 @@ const Navbar = () => {
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      E-Bharat
+                      RSS-HARDWARE
                     </h1>
                   </div>
                 </Link>
